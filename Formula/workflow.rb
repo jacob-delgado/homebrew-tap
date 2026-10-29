@@ -4,11 +4,11 @@ class Workflow < Formula
   desc "Run your Jira, Git forge and messaging workflow, in the terminal or a browser"
   homepage "https://github.com/jacob-delgado/workflow"
   if OS.mac?
-    url "https://github.com/jacob-delgado/workflow/releases/download/v0.13.1/workflow_darwin_arm64"
-    sha256 "cd7c4e6b6eaa5ea1c542a1ccff1bb3bd5c86714dab526f27751a3e64cfe140d0"
+    url "https://github.com/jacob-delgado/workflow/releases/download/v0.13.2/workflow_darwin_arm64"
+    sha256 "7a3c7c85341598a7eda09cf6201c7f5a1ab1fe0318069dac78cc665f1ecb05a0"
   else
-    url "https://github.com/jacob-delgado/workflow/releases/download/v0.13.1/workflow_linux_amd64"
-    sha256 "45900293652a65230a215922b55c9b5198911f7178dc59662c3f95996d288b6d"
+    url "https://github.com/jacob-delgado/workflow/releases/download/v0.13.2/workflow_linux_amd64"
+    sha256 "56f0adbd62d51efcb41dd333cf494539e366e4d8274d08358387d21d4a5e9d2c"
   end
   license "Apache-2.0"
 
